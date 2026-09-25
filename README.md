@@ -141,39 +141,6 @@ lib/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) installed and configured
-- A running instance of the backend REST API this app connects to
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/lazyroom.git
-   cd lazyroom
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configure the API base URL**
-
-   Open `lib/services/auth_service.dart` and update the `baseUrl` constant to point to your backend server:
-   ```dart
-   const String baseUrl = "http://<your-server-ip>:8000/api";
-   ```
-
-4. **Run the app**
-   ```bash
-   flutter run
-   ```
-
----
-
 ## 🤝 Contributing
 
 Contributions, issue reports, and feature suggestions are welcome. Feel free to open an issue or submit a pull request.
